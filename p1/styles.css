@@ -1,0 +1,231 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    line-height: 1.6;
+    background-color: white;
+}
+
+header{
+    background-color: rgb(200, 16, 216);
+    color: rgb(243, 240, 240);
+    padding: 20px;
+    text-align: center;   
+}
+
+header h2{
+    margin: 0 0 10px;
+    font-family: 24px;
+}
+
+header nav{
+    list-style: none;
+}
+
+head li{
+    display: inline-block;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+}
+
+header nav a:hover{
+    color:cornflowerblue;
+}
+
+.hero{
+    background-color: rgb(255, 127, 232);
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1{
+    margin: 0 0 10px;
+    color:darkmagenta;
+    font-size: 36px;
+}
+
+.hero p{
+    font-size: 18px;
+    color:rgb(38, 38, 43);
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: rgb(207, 23, 204);
+    color: bisque;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: rgb(204, 45, 193);
+}
+
+.servicios{
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.servicios h2{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.caja-servicio{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    background-color: rgb(236, 146, 221);
+    padding: 25px;
+    box-sizing: border-box;
+    vertical-align: top;
+    border: 1px solid rgb(224, 67, 239);
+    text-align: left;
+}
+
+.caja-servicio h3{
+    color: black;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgb(170, 88, 207);
+    color: azure;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 50px;
+}
+
+footer p{
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.page-banner {
+    background-color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 1em;
+}
+
+.page-banner{
+    margin: 0;
+    color: rgb(196, 77, 219);
+    font-size: 20px;
+}
+
+.contacto-container{
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.columna{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 1%;
+}
+
+.formulario-contacto{
+    background-color: white;
+    padding: 30px;
+    border: solid 1px white;
+}
+
+.formulario-contacto h2{
+    color: black;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group textarea{
+    height: 120px;
+    resize: vertical;
+}
+
+.btn-enviar{
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.info-contacto{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.info-contacto h2{
+    color: blueviolet;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.info-item{
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.info-item strong{
+    color: blueviolet;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mapa-container{
+    text-align: center;
+    padding: 30px;
+}
+
+.mapa-container iframe{
+    border: none;
+    border-radius: 10px;
+}
+
